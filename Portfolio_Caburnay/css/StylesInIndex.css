@@ -1,0 +1,120 @@
+/**STYLE IN HOME PAGE index.htm**/
+
+/*logo*/
+.atclogo
+{
+	width: 20%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+/*====================================*/
+/*horizontal line*/
+.hr
+{
+	border-top: 1.3px dotted;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+/*====================================*/
+/*greeting header*/
+div>h1
+{
+	text-align: center;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	padding: 20px;
+	margin: 20px;
+	font-family: dotum;
+	font-size: 40px;
+}
+/*====================================*/
+/*menu*/
+ul
+{
+	list-style-type: none;
+	text-align: center;
+	padding: 10px;
+	margin: 7px;
+	margin-bottom: 30px;
+}
+
+li
+{
+	font-size: 30px;
+	display: inline-block;
+	padding: 20px 20px;
+	margin: 27px 27px;
+	border: 1px solid;
+	border-style: none;
+	border-radius: 5px;
+	box-shadow: 8px 8px 14px #a1a1a1;
+	letter-spacing: 4px;
+	word-spacing: 7px;
+	font-family: copperplate gothic light
+}
+
+a:link, a:visited
+{
+	text-decoration: none;
+	color: black;
+}
+
+li:hover
+{
+	cursor: pointer;
+	transition: 1.3s ease;
+	box-shadow: 20px 20px 30px black;
+	transition-delay: 0.7s ease;
+}
+/*======================================*/
+/*horizontal line from after the ul(menu)*/
+.aftermenuline
+{
+	margin-left: 100px;
+	margin-right: 100px;
+	border-top: 1.3px dotted;
+}
+/*====================================*/
+/*footer style*/
+.footer
+{
+
+	background-color: #787c82;
+ 	color: white;
+  	text-align: center;
+  	font-size: 13px;
+  	font-family: calibri;
+  	letter-spacing: 1.5px;
+  	word-spacing: 1px;
+
+  	position: absolute;
+  	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+}
+/*style to create a fixed good footer*/
+body
+{
+	position: relative;
+	margin: 0;
+	padding-bottom: 6rem;
+	min-height: 100%;
+}
+html 
+{
+	height: 100%;
+}
+/*====================================*/
+/*descriptuion*/
+.descriptions
+{
+	padding: 20px;
+	font-size: 10px;
+	text-align: center;
+	font-style: italic;
+	letter-spacing: 3px;	
+}
+
+
